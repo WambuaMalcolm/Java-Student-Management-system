@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Performance Management System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f5f5f5;
+        color: #333;
+        line-height: 1.6;
+      }
+      header {
+        background: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background: #333;
+        padding: 0.5em;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0 1.5em;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 2em auto;
+        padding: 1em;
+        background: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      h2 {
+        color: #4caf50;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1em;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+      }
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background: #4caf50;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Student Performance Management System</h1>
+    </header>
+    <nav>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#records">Academic Records</a>
+      <a href="#attendance">Attendance</a>
+      <a href="#performance">Performance</a>
+    </nav>
+
+    <div class="container" id="dashboard">
+      <h2>Dashboard</h2>
+      <p>
+        Welcome to the Student Performance Management System. Track and manage
+        student records efficiently.
+      </p>
+    </div>
+
+    <div class="container" id="records">
+      <h2>Academic Records</h2>
+      <table>
+        <tr>
+          <th>Student ID</th>
+          <th>Name</th>
+          <th>Grade</th>
+          <th>Subjects</th>
+        </tr>
+        <tr>
+          <td>001</td>
+          <td>John Doe</td>
+          <td>10</td>
+          <td>Math, Science, History</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Jane Smith</td>
+          <td>9</td>
+          <td>English, Biology, Geography</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container" id="attendance">
+      <h2>Attendance</h2>
+      <table>
+        <tr>
+          <th>Student ID</th>
+          <th>Name</th>
+          <th>Attendance (%)</th>
+        </tr>
+        <tr>
+          <td>001</td>
+          <td>John Doe</td>
+          <td>95%</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Jane Smith</td>
+          <td>89%</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container" id="performance">
+      <h2>Performance</h2>
+      <table>
+        <tr>
+          <th>Student ID</th>
+          <th>Name</th>
+          <th>Overall GPA</th>
+          <th>Remarks</th>
+        </tr>
+        <tr>
+          <td>001</td>
+          <td>John Doe</td>
+          <td>3.8</td>
+          <td>Excellent</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Jane Smith</td>
+          <td>3.4</td>
+          <td>Good</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
